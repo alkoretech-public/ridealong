@@ -18,10 +18,8 @@
 # Maven 
 target/
 
-
 # IntelliJ project files 
 *.iml
 *.iws
 *.ipr
 .idea/
-

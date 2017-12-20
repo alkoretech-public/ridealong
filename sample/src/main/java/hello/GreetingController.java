@@ -20,6 +20,12 @@ public class GreetingController {
         String.format(template, name));
   }
 
+  @RequestMapping(value = "/")
+  public String index() {
+    return "index.html";
+  }
+
+
   public static void main(String[] args) {
     SpringApplication.run(GreetingController.class, args);
   }
